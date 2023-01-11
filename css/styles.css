@@ -75,8 +75,70 @@ select {
 
 html, body {
     background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+li{
+    text-align: left;
+    list-style-position: inside;
 }
 
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h1, h2 {
+    font-family: 'Satisfy', cursive;
+    font-size: 80px;
+}
+
+.font-adjustment{
+    font-size: 36px;
+}
+
+h2.font-adjustment{
+    font-size: 24px;
+    color: #EA4C89;
+}
+
+.main-links {
+    text-align: center;
+}
+
+.main-links ul li {
+    display: inline;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.home-btn {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  /* font-weight: 500; */
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 26px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.home-btn1:hover,
+.home-btn:focus {
+  background-color: #F082AC;
+}
 }
