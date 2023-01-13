@@ -6,39 +6,46 @@
     <link rel="stylesheet" href="css/styles.css" >
 </head>
 <body>
-    <header>
-        <h1>Odin Recipes</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Homepage</a></li>
-                <li><a href="./recipes/seared-scallops.html">Seared scallops</a></li>
-                <li><a href="./recipes/roast-chicken.html">Roast chicken</a></li>
-                <li><a href="./recipes/cheesecake.html">Cheesecake</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <article>
-            <header>
-                <h2>Seared Scallops</h2>
-                <p>Lorem ipsum dolor</p>
-            </header>
-        </article>
-        <article>
-            <header>
-                <h2>Roast chicken</h2>
-                <p>Lorem ipsum dolor</p>
-            </header>
-        </article>
-        <article>
-            <header>
-                <h2>Cheesecake</h2>
-                <p>Lorem ipsum dolor</p>
-            </header>
-        </article>
-    </section>
-    <footer>
-        <p>Copyright @me</p>
-    </footer>
+    <div id="container">
+        <header>
+            <div id="header"><h1>Odin Recipes</h1></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Homepage</a></li>
+                    <li><a href="./recipes/seared-scallops.html">Seared scallops</a></li>
+                    <li><a href="./recipes/roast-chicken.html">Roast chicken</a></li>
+                    <li><a href="./recipes/cheesecake.html">Cheesecake</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="content">
+            <article>
+                <header>
+                    <div class="art-header">
+                        <span class="circle-image"><img src="./img/cheesecake.webp" alt="The perfect sweet treat or dessert for a special occasion" width="300"></span>
+                        <h2>Seared Scallops</h2>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </header>
+            </article>
+            <article>
+                <header>
+                    <span class="circle-image"><img src="./img/cheesecake.webp" alt="The perfect sweet treat or dessert for a special occasion" width="300"></span>
+                    <h2>Roast chicken</h2>
+                    <p>Lorem ipsum dolor</p>
+                </header>
+            </article>
+            <article>
+                <header>
+                    <span class="circle-image"><img src="./img/cheesecake.webp" alt="The perfect sweet treat or dessert for a special occasion" width="300"></span>
+                    <h2>Cheesecake</h2>
+                    <p>Lorem ipsum dolor</p>
+                </header>
+            </article>
+        </section>
+        <footer>
+            <p>Copyright @me</p>
+        </footer>
+</div>
 </body>
 </html>
