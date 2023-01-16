@@ -93,6 +93,9 @@ html, body {
 #header{
   height: 400px;
   background-color: burlywood;
+  background-image: url(../img/roast-chicken.jpg);
+  background-position: center;
+  background-blend-mode:multiply;
 }
 
  #header h1{
