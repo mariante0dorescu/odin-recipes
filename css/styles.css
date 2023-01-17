@@ -73,15 +73,17 @@ select {
   }
 }
 
+
+
 html, body {
     background-color: antiquewhite;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
 }
-
-
 
 #container {
   max-width: 70%;
+  
   margin: 0 auto;
   background-color: white;
   border: 1px solid gainsboro;
@@ -121,7 +123,7 @@ nav ul {
   list-style: none;
   display: flex; 
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   gap: 1em;
   padding: 1rem;
   margin-top: 0;
@@ -146,17 +148,30 @@ nav a:hover {
 
 
 #content {
+  /* height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
+  gap: 1em; */
   text-align: center;
-  height: auto;
+  display: flex;
+  height: 100%;
+  justify-content: center;
 }
 
-article {
-  
-  
+.article-container {
+  display: flex;
+  flex: 1;  
+  justify-content: stretch;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  min-height: 100%;
 }
+
+/* article{
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+} */
 
 .circle-image{
   display: inline-block;
@@ -183,11 +198,17 @@ article {
    -webkit-filter: brightness(100%);
 }
 
-.art-header{
-  padding: 1rem;
-  position: relative;
-  min-height: 400px;
-  margin-bottom: .5rem;
+.bottom {
+  /* position:absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto; */
+  text-align: center;
+  margin-top: .5rem; 
+  align-self: flex-end;
 }
 
 footer {
@@ -202,24 +223,17 @@ footer {
   background-color: rgb(163, 110, 41);
   border-radius: 8px;
   border-style: none;
-  box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
-  display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  font-weight: 500;
-  height: 40px;
+  height: auto;
   line-height: 20px;
   list-style: none;
-  margin: .5rem;
-  outline: none;
+  margin-top: 1rem;;
   padding: 10px 16px;
-  position: relative;
   text-align: center;
   text-decoration: none;
   transition: color 100ms;
-  vertical-align: baseline;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -228,15 +242,4 @@ footer {
 .button-1:hover,
 .button-1:focus {
   background-color: rgb(179, 129, 64);
-  
-}
-
-.bottom {
-  position:absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
