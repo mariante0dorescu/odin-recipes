@@ -73,10 +73,200 @@ select {
   }
 }
 
+
+
 html, body {
     background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
 }
 
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#container {
+  max-width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: .5rem;
+  /* padding: .5rem; */
+  overflow: hidden;
+}
+
+#header{
+  height: 400px;
+  background-color: burlywood;
+  background-image: url(../img/roast-chicken.jpg);
+  background-position: center;
+  background-blend-mode:multiply;
+}
+
+ #header h1{
+  margin: 0 auto;
+  text-align: center;
+  line-height: 400px;
+  color: rgb(255, 255, 255);
+  /* text-transform: uppercase; */
+  font-size: 48px;
+ }
+
+ nav {
+
+  /* justify-content: space-between;  */
+  /* padding: 1rem 2rem;  */
+  background: rgb(163, 110, 41);
+  /* margin: .5rem -.5rem .5rem -.5rem;  */
+  /* text-align: center;   */
+  
+}
+
+nav ul {
+  list-style: none;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  padding: 1rem;
+  margin-top: 0;
+}
+
+nav li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1.2rem;
+}
+
+nav a:hover {
+  background-color: rgb(0, 0, 0);
+  height: auto;
+}
+
+
+#content {
+
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding: 1rem;
+  gap: .75rem;
+}
+
+.article-container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  margin-bottom: 1rem;
+  
+  /* height: 600px; */
+  
+}
+
+.art-bottom {
+  justify-content: space-between;
+  /* background-color: red; */
+}
+
+.circle-image{
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+
+.circle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;  
+}
+
+.circle-image img:hover {
+   -webkit-filter: brightness(100%);
+}
+
+.button-1 {
+  background-color: rgb(163, 110, 41);
+  border-radius: 8px;
+  border-style: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  height: auto;
+  line-height: 20px;
+  list-style: none;
+  margin-top: 1rem;;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: rgb(179, 129, 64);
+}
+
+footer {
+  background: rgb(163, 110, 41);
+  text-align: center;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+/* styles for recipe pages */
+.recipe {
+  text-align: left;
+}
+
+.ingredients {
+  border-top: 2px solid rgb(163, 110, 41);
+  border-bottom: 2px solid rgb(163, 110, 41);
+  padding: 1rem 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+.art-recipe-header {
+  display: flex;
+  text-align: left;
+  gap:1rem;
+  justify-content: space-between;
+}
+
+.art-recipe-header h3{
+  margin-top: 2rem;
+}
+
+.art-recipe-header p{
+  margin-top: 1rem;
+}
+
+.art-recipe-header img {
+  margin-bottom: 1rem;
+  align-self: center;
+  max-width: 400px;
+  
+  border-radius: 10px;
+}
+
+.art-recipe-ingredients {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(163, 110, 41);
 }
