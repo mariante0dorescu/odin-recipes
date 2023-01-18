@@ -168,8 +168,8 @@ nav a:hover {
 }
 
 .art-bottom {
-
-  background-color: red;
+  justify-content: space-between;
+  /* background-color: red; */
 }
 
 .circle-image{
@@ -260,6 +260,7 @@ footer {
   margin-bottom: 1rem;
   align-self: center;
   max-width: 400px;
+  
   border-radius: 10px;
 }
 
