@@ -10,4 +10,4 @@ If you are interested on how this turn out, please check the attached screenshot
 
 [main page](./img/Screenshot_2023-01-18_13-08-37.png)
 
-[main page] (https://github.com/mariante0dorescu/odin-recipes/blob/main/img/Screenshot_2023-01-18_14-35-57.png)
+[recipe page](./img/Screenshot_2023-01-18_14-35-57.png)
