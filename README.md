@@ -11,3 +11,7 @@ If you are interested on how this turn out, please check the attached screenshot
 [main page](./img/Screenshot_2023-01-18_13-08-37.png)
 
 [recipe page](./img/Screenshot_2023-01-18_14-35-57.png)
+
+or the final deplyment:
+
+[link](https://mariante0dorescu.github.io/odin-recipes/)
