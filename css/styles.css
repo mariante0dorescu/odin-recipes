@@ -167,9 +167,8 @@ nav a:hover {
   
 }
 
-.art-bottom {
-  justify-content: space-between;
-  /* background-color: red; */
+.art-content {
+  flex: 2;
 }
 
 .circle-image{
