@@ -171,6 +171,10 @@ nav a:hover {
   flex: 2;
 }
 
+.article-container > .art-bottom {
+  justify-content: flex-end;
+}
+
 .circle-image{
   display: inline-block;
   border-radius: 50%;
